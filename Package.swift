@@ -14,10 +14,6 @@ let package = Package(
   targets: [
     .executableTarget(
       name: "Sample",
-      resources: [
-        .copy("input.jpeg"),
-        .copy("mask.png"),
-        .copy("LaMa.mlmodelc")
-      ])
+      resources: [])
   ]
 )
